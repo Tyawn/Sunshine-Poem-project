@@ -1,0 +1,85 @@
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+h1 strong {
+    color: #d2691e; /* Color for the bold part of the title */
+}
+
+/* Author name */
+h1 em {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Poem styling */
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+    font-style: italic;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Last poem line without border */
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Social media section */
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Social media links */
+ul a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 1.2em;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+/* Spacing for the social media list */
+ul li {
+    text-align: center;
+    margin: 10px 0;
+}
